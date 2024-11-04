@@ -1,0 +1,2 @@
+export const mongoDBURL = 'mongodb+srv://corde048:2002@cluster0.p5kchg8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+export const jwtSecret = 'ZkbnJV2h4GOOKXGMEOyTDrjXo1043qa53oPERj5M2Acp';

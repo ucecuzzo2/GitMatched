@@ -1,0 +1,66 @@
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* SignInPage.css */
+
+/* Centering and sizing the form container */
+.form-container {
+    width: 400px;               /* Increase width of the form */
+    padding: 2rem;              /* Add some padding for spacing inside the form */
+    background-color: #f9f9f9;  /* Light background color for the form */
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+
+    /* Centering the form */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the form vertically and horizontally */
+}
+
+/* Styling form inputs */
+.form-input {
+    width: 100%;               /* Full width for each input */
+    padding: 0.75rem;          /* Padding inside the input fields */
+    margin: 0.5rem 0;          /* Space between inputs */
+    border: 1px solid #ddd;    /* Light border */
+    border-radius: 4px;        /* Slightly rounded corners */
+}
+
+/* Styling the submit button */
+.form-button {
+    width: 100%;               /* Full width for the button */
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: #007bff; /* Primary color */
+    color: #fff;               /* White text color */
+    border: none;              /* Remove default border */
+    border-radius: 4px;
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 1rem;
+}
+
+/* Button hover effect */
+.form-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.signup-link {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

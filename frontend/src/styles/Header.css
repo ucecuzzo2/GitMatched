@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+
+.header-title {
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333; 
+    font-size: 1.2rem;
+}
+
+
+.nav-link:hover {
+    color: #0070f3; 
+}

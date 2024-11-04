@@ -1,0 +1,14 @@
+.home-image {
+    position: absolute; /* Position it absolutely within the relative parent */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Make it 100% of the width */
+    height: 100%; /* Make it 100% of the height */
+    object-fit: cover; /* This ensures the image covers the area without distortion */
+    z-index: -1; /* Send it behind other elements */
+}
+
+.main-content {
+    position: relative; /* Ensure content is above the image */
+    z-index: 1; /* Bring the content above the image */
+}
